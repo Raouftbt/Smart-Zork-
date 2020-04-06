@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Jeu
+comment0.text=\n\ \ Classe\ principale\ du\ jeu\ "Zork".\ <p>\n\n\ \ Zork\ est\ un\ jeu\ d'aventure\ tr\u00E8s\ rudimentaire\ avec\ une\ interface\ en\ mode\n\ \ texte\:\ les\ joueurs\ peuvent\ juste\ se\ d\u00E9placer\ parmi\ les\ diff\u00E9rentes\ pieces.\n\ \ Ce\ jeu\ n\u00E9cessite\ vraiment\ d'etre\ enrichi\ pour\ devenir\ int\u00E9ressant\!</p>\ <p>\n\n\ \ Pour\ jouer\ a\ ce\ jeu,\ cr\u00E9er\ une\ instance\ de\ cette\ classe\ et\ appeler\ sa\n\ \ m\u00E9thode\ "jouer".\ </p>\ <p>\n\n\ \ Cette\ classe\ cr\u00E9e\ et\ initialise\ des\ instances\ de\ toutes\ les\ autres\ classes\:\n\ \ elle\ cr\u00E9e\ toutes\ les\ pieces,\ cr\u00E9e\ l'analyseur\ syntaxique\ et\ d\u00E9marre\ le\ jeu.\n\ \ Elle\ se\ charge\ aussi\ d'ex\u00E9cuter\ les\ commandes\ que\ lui\ renvoie\ l'analyseur\n\ \ syntaxique.</p>\n\n\ @author\ \ \ \ \ Michael\ Kolling\n\ @author\ \ \ \ \ Marc\ Champesme\ (pour\ la\ traduction\ francaise)\n\ @version\ \ \ \ 1.2\n\ @since\ \ \ \ \ \ March\ 2000\n
+comment1.params=
+comment1.target=Jeu()
+comment1.text=\n\ \ Cr\u00E9e\ le\ jeu\ et\ initialise\ la\ carte\ du\ jeu\ (i.e.\ les\ pi\u00E8ces).\n
+comment2.params=
+comment2.target=void\ creerPieces()
+comment2.text=\n\ \ Cr\u00E9e\ toutes\ les\ pieces\ et\ relie\ leurs\ sorties\ les\ unes\ aux\ autres.\n
+comment3.params=
+comment3.target=void\ jouer()
+comment3.text=\n\ \ Pour\ lancer\ le\ jeu.\ Boucle\ jusqu'a\ la\ fin\ du\ jeu.\n
+comment4.params=
+comment4.target=void\ afficherMsgBienvennue()
+comment4.text=\n\ \ Affiche\ le\ message\ d'accueil\ pour\ le\ joueur.\n
+comment5.params=commande
+comment5.target=boolean\ traiterCommande(Commande)
+comment5.text=\n\ \ Ex\u00E9cute\ la\ commande\ sp\u00E9cifi\u00E9e.\ Si\ cette\ commande\ termine\ le\ jeu,\ la\ valeur\n\ \ true\ est\ renvoy\u00E9e,\ sinon\ false\ est\ renvoy\u00E9e\n\n\ @param\ \ commande\ \ La\ commande\ a\ ex\u00E9cuter\n\ @return\ \ \ \ \ \ \ \ \ \ \ true\ si\ cette\ commande\ termine\ le\ jeu\ ;\ false\ sinon.\n
+comment6.params=
+comment6.target=void\ afficherAide()
+comment6.text=\n\ \ Affichage\ de\ l'aide.\ Affiche\ notament\ la\ liste\ des\ commandes\ utilisables.\n
+comment7.params=commande
+comment7.target=void\ deplacerVersAutrePiece(Commande)
+comment7.text=\n\ \ Tente\ d'aller\ dans\ la\ direction\ sp\u00E9cifi\u00E9e\ par\ la\ commande.\ Si\ la\ piece\n\ \ courante\ poss\u00E8de\ une\ sortie\ dans\ cette\ direction,\ la\ piece\ correspondant\ a\n\ \ cette\ sortie\ devient\ la\ piece\ courante,\ dans\ les\ autres\ cas\ affiche\ un\n\ \ message\ d'erreur.\n\n\ @param\ \ commande\ \ Commande\ dont\ le\ second\ mot\ sp\u00E9cifie\ la\ direction\ a\ suivre\n
+numComments=8

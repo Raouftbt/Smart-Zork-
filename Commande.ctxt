@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Commande
+comment0.text=\n\ \ <p>\n\n\ \ Cette\ classe\ fait\ partie\ du\ logiciel\ Zork,\ un\ jeu\ d'aventure\ simple\ en\ mode\n\ \ texte.</p>\ <p>\n\n\ \ Cette\ classe\ r\u00E9pertorie\ les\ informations\ li\u00E9es\ a\ une\ commande\ entr\u00E9e\ par\n\ \ l'utilisateur.\ Une\ commande\ est\ constitu\u00E9e\ de\ deux\ chaines\ de\ caract\u00E8res\:\ un\n\ \ mot-cl\u00E9\ de\ commande\ et\ un\ second\ mot\ apportant\ un\ compl\u00E9ment\ (un\ param\u00E8tre)\n\ \ au\ mot-cl\u00E9\ indiquant\ la\ commande\ a\ ex\u00E9cuter\ (par\ exemple,\ si\ la\ commande\n\ \ entr\u00E9e\ par\ l'utilisateur\ est\ "prendre\ carte",\ alors\ les\ deux\ chaines\ de\n\ \ caract\u00E8res\ sont\ "prendre"\ et\ "carte").</p>\ <p>\n\n\ \ Les\ mots\ utilis\u00E9s\ lors\ de\ l'initialisation\ d'une\ instance\ de\ cette\ classe\n\ \ sont\ suppos\u00E9s\ venir\ d'une\ commande\ utilisateur\ dont\ la\ validit\u00E9\ a\ d\u00E9j\u00E0\ \u00E9t\u00E9\n\ \ test\u00E9e\:\n\ \ <ul>\n\ \ \ \ <li>\ si\ le\ mot\ commande\ entr\u00E9\ par\ l'utilisateur\ ne\ correspond\ pas\ a\ une\n\ \ \ \ commande\ valide,\ alors\ la\ valeur\ du\ mot\ commande\ donn\u00E9\ a\ l'initialisation\n\ \ \ \ doit\ etre\ null</li>\n\ \ \ \ <li>\ si\ la\ commande\ entr\u00E9e\ par\ l'utilisateur\ ne\ contient\ pas\ d'autre\ mot\n\ \ \ \ que\ le\ mot\ commande,\ alors\ la\ valeur\ du\ second\ mot\ donn\u00E9\ a\n\ \ \ \ l'initialisation\ doit\ etre\ null</li>\n\ \ </ul>\n\ \ La\ validit\u00E9\ du\ second\ mot\ n'est\ pas\ test\u00E9e,\ sa\ valeur\ peut\ etre\ quelconque.\n\ \ </p>\n\n\ @author\ \ \ \ \ Michael\ Kolling\n\ @author\ \ \ \ \ Marc\ Champesme\ (pour\ la\ traduction\ francaise)\n\ @version\ \ \ \ 1.0\n\ @since\ \ \ \ \ \ July\ 1999\n
+comment1.params=motCommande\ secondMot
+comment1.target=Commande(java.lang.String,\ java.lang.String)
+comment1.text=\n\ \ Initialise\ une\ Commande\ a\ partir\ des\ deux\ mots\ sp\u00E9cifi\u00E9s.\ <p>\n\n\ \ Le\ premier\ argument\ repr\u00E9sente\ un\ mot\ commande,\ sa\ valeur\ peut\ etre\ null\ si\n\ \ le\ mot\ commande\ ne\ correspond\ pas\ a\ une\ commande\ valide.\ Le\ second\ mot\ peut\n\ \ \u00E9galement\ etre\ null\ dans\ le\ cas\ ou\ l'utilisateur\ n'aurait\ pas\ fourni\ de\n\ \ second\ mot\ dans\ sa\ commande.</p>\n\n\ @param\ \ motCommande\ \ Le\ mot\ commande\ de\ la\ commande\ utilisateur\ ou\ null\n\ @param\ \ secondMot\ \ \ \ Le\ second\ mot\ de\ la\ commande\ utilisateur\ ou\ null\n
+comment2.params=
+comment2.target=java.lang.String\ getMotCommande()
+comment2.text=\n\ \ Renvoie\ le\ mot\ commande\ (le\ premier\ mot)\ de\ cette\ Commande.\ Si\ cette\n\ \ commande\ n'est\ pas\ une\ commande\ valide,\ la\ valeur\ renvoy\u00E9e\ est\ null.\n\n\ @return\ \ \ \ Le\ mot\ commande\ de\ cette\ Commande\ ou\ null\n
+comment3.params=
+comment3.target=java.lang.String\ getSecondMot()
+comment3.text=\n\ \ Renvoie\ le\ second\ mot\ de\ cette\ Commande\ ou\ null\ si\ cette\ commande\ ne\n\ \ poss\u00E8de\ pas\ de\ second\ mot.\n\n\ @return\ \ \ \ le\ second\ mot\ de\ cette\ Commande\ ou\ null\n
+comment4.params=
+comment4.target=boolean\ estInconnue()
+comment4.text=\n\ \ Teste\ si\ cette\ commande\ est\ une\ commande\ reconnue\ par\ le\ jeu.\n\n\ @return\ \ \ \ true\ si\ cette\ commande\ est\ valide\ ;\ false\ sinon\n
+comment5.params=
+comment5.target=boolean\ aSecondMot()
+comment5.text=\n\ \ Teste\ si\ cette\ commande\ poss\u00E8de\ un\ second\ mot.\n\n\ @return\ \ \ \ true\ si\ cette\ commande\ poss\u00E8de\ un\ second\ mot\ ;\ false\ sinon\n
+numComments=6

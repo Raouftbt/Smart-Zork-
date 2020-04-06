@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AnalyseurSyntaxique
+comment0.text=\n\ \ \n\n\ \ Cette\ classe\ fait\ partie\ du\ logiciel\ Zork,\ un\ jeu\ d'aventure\ simple\ en\ mode\n\ \ texte.\ <p>\n\n\ \ Cet\ analyseur\ syntaxique\ lit\ les\ entr\u00E9es\ (au\ terminal)\ utilisateur\ et\ tente\n\ \ de\ les\ interpr\u00E9ter\ comme\ des\ commande\ du\ jeu\ "Zork".\ Chaque\ appel\ a\ la\n\ \ m\u00E9thode\ getCommande()\ lit\ une\ ligne\ au\ terminal\ et\ tente\ de\ l'interpr\u00E9ter\n\ \ comme\ constituant\ une\ commande\ compos\u00E9e\ de\ deux\ mots.\ La\ commande\ est\ alors\n\ \ renvoy\u00E9e\ sous\ forme\ d'une\ instance\ de\ la\ classe\ Commande.\ </p>\ <p>\n\n\ \ Cet\ analyseur\ contient\ un\ r\u00E9pertoire\ de\ toutes\ les\ commandes\ reconnues\ par\n\ \ le\ jeu.\ Il\ compare\ les\ entr\u00E9es\ de\ l'utilisateur\ au\ commandes\ r\u00E9pertori\u00E9es\ et\n\ \ si\ la\ commande\ utilisateur\ n'est\ pas\ reconnue\ il\ renvoie\ un\ objet\ Commande\n\ \ marqu\u00E9\ comme\ \u00E9tant\ une\ commande\ inconnue.</p>\n\n\ @author\ \ \ \ \ Michael\ Kolling\n\ @author\ \ \ \ \ Marc\ Champesme\ (pour\ la\ traduction\ francaise)\n\ @version\ \ \ \ 1.0\n\ @since\ \ \ \ \ \ July\ 1999\n
+comment1.params=
+comment1.target=AnalyseurSyntaxique()
+comment1.text=\n\ \ Initialise\ un\ nouvel\ analyseur\ syntaxique\n
+comment2.params=
+comment2.target=Commande\ getCommande()
+comment2.text=\n\ \ Lit\ une\ ligne\ au\ terminal\ et\ tente\ de\ l'interpr\u00E9ter\ comme\ constituant\ une\n\ \ commande\ compos\u00E9e\ de\ deux\ mots.\ La\ commande\ est\ alors\ renvoy\u00E9e\ sous\ forme\n\ \ d'une\ instance\ de\ la\ classe\ Commande.\n\n\ @return\ \ \ \ La\ commande\ utilisateur\ sous\ la\ forme\ d'un\ objet\ Commande\n
+comment3.params=
+comment3.target=void\ afficherToutesLesCommandes()
+comment3.text=\n\ \ Affiche\ la\ liste\ de\ toutes\ les\ commandes\ reconnues\ pour\ le\ jeu.\n
+numComments=4

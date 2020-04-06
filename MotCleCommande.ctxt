@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MotCleCommande
+comment0.text=\n\ \ <p>\n\n\ \ Cette\ classe\ fait\ partie\ du\ logiciel\ Zork,\ un\ jeu\ d'aventure\ simple\ en\ mode\n\ \ texte.</p>\ <p>\n\n\ \ Classe\ r\u00E9pertoriant\ l'ensemble\ des\ mots-cl\u00E9\ utilisables\ comme\ commande\ dans\n\ \ le\ jeu.\ Elle\ est\ utilis\u00E9e\ pour\ v\u00E9rifier\ la\ validit\u00E9\ des\ commandes\ de\n\ \ l'utilisateur.\n\n\ @author\ \ \ \ \ Michael\ Kolling\n\ @author\ \ \ \ \ Marc\ Champesme\ (pour\ la\ traduction\ francaise)\n\ @version\ \ \ \ 1.0\n\ @since\ \ \ \ \ \ July\ 1999\n
+comment1.params=
+comment1.target=MotCleCommande()
+comment1.text=\n\ \ Initialise\ la\ liste\ des\ mots-cl\u00E9\ utilisables\ comme\ commande.\n
+comment2.params=aString
+comment2.target=boolean\ estCommande(java.lang.String)
+comment2.text=\n\ \ Teste\ si\ la\ chaine\ de\ caract\u00E8res\ sp\u00E9cifi\u00E9e\ est\ un\ mot-cl\u00E9\ de\ commande\n\ \ valide.\ Check\ whether\ a\ given\ String\ is\ a\ valid\ command\ word.\ Return\ true\n\ \ if\ it\ is,\ false\ if\ it\ isn't.\n\n\ @param\ \ aString\ \ Chaine\ de\ caract\u00E8res\ a\ tester\n\ @return\ \ \ \ \ \ \ \ \ \ true\ si\ le\ param\u00E8tre\ est\ une\ commande\ valide,\ false\ sinon\n
+comment3.params=
+comment3.target=void\ afficherToutesLesCommandes()
+comment3.text=\n\ \ Affiche\ toutes\ les\ commandes\ (i.e.\ les\ mots-cl\u00E9)\ valides.\n
+numComments=4

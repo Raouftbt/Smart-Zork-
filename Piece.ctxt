@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Piece
+comment0.text=\n\ \ Une\ piece\ dans\ un\ jeu\ d'aventure.\ <p>\n\n\ \ Cette\ classe\ fait\ partie\ du\ logiciel\ Zork,\ un\ jeu\ d'aventure\ simple\ en\ mode\n\ \ texte.</p>\ <p>\n\n\ \ Une\ "Piece"\ represente\ un\ des\ lieux\ dans\ lesquels\ se\ d\u00E9roule\ l'action\ du\n\ \ jeu.\ Elle\ est\ reli\u00E9e\ a\ au\ plus\ quatre\ autres\ "Piece"\ par\ des\ sorties.\ Les\n\ \ sorties\ sont\ \u00E9tiquett\u00E9es\ "nord",\ "est",\ "sud",\ "ouest".\ Pour\ chaque\n\ \ direction,\ la\ "Piece"\ poss\u00E8de\ une\ r\u00E9f\u00E9rence\ sur\ la\ piece\ voisine\ ou\ null\n\ \ s'il\ n'y\ a\ pas\ de\ sortie\ dans\ cette\ direction.</p>\n\n\ @author\ \ \ \ \ Michael\ Kolling\n\ @author\ \ \ \ \ Marc\ Champesme\ (pour\ la\ traduction\ francaise)\n\ @version\ \ \ \ 1.2\n\ @since\ \ \ \ \ \ August\ 2000\n
+comment1.params=description
+comment1.target=Piece(java.lang.String)
+comment1.text=\n\ \ Initialise\ une\ piece\ d\u00E9crite\ par\ la\ chaine\ de\ caract\u00E8res\ sp\u00E9cifi\u00E9e.\n\ \ Initialement,\ cette\ piece\ ne\ poss\u00E8de\ aucune\ sortie.\ La\ description\ fournie\n\ \ est\ une\ courte\ phrase\ comme\ "la\ biblioth\u00E8que"\ ou\ "la\ salle\ de\ TP".\n\n\ @param\ \ description\ \ Description\ de\ la\ piece.\n
+comment2.params=nord\ est\ sud\ ouest
+comment2.target=void\ setSorties(Piece,\ Piece,\ Piece,\ Piece)
+comment2.text=\n\ \ D\u00E9finie\ les\ sorties\ de\ cette\ piece.\ A\ chaque\ direction\ correspond\ ou\ bien\n\ \ une\ piece\ ou\ bien\ la\ valeur\ null\ signifiant\ qu'il\ n'y\ a\ pas\ de\ sortie\ dans\n\ \ cette\ direction.\n\n\ @param\ \ nord\ \ \ La\ sortie\ nord\n\ @param\ \ est\ \ \ \ La\ sortie\ est\n\ @param\ \ sud\ \ \ \ La\ sortie\ sud\n\ @param\ \ ouest\ \ La\ sortie\ ouest\n
+comment3.params=
+comment3.target=java.lang.String\ descriptionCourte()
+comment3.text=\n\ \ Renvoie\ la\ description\ de\ cette\ piece\ (i.e.\ la\ description\ sp\u00E9cifi\u00E9e\ lors\n\ \ de\ la\ cr\u00E9ation\ de\ cette\ instance).\n\n\ @return\ \ \ \ Description\ de\ cette\ piece\n
+comment4.params=
+comment4.target=java.lang.String\ descriptionLongue()
+comment4.text=\n\ \ Renvoie\ une\ description\ de\ cette\ piece\ mentionant\ ses\ sorties\ et\n\ \ directement\ format\u00E9e\ pour\ affichage,\ de\ la\ forme\:\ <pre>\n\ \ Vous\ etes\ dans\ la\ biblioth\u00E8que.\n\ \ Sorties\:\ nord\ ouest</pre>\ Cette\ description\ utilise\ la\ chaine\ de\ caract\u00E8res\n\ \ renvoy\u00E9e\ par\ la\ m\u00E9thode\ descriptionSorties\ pour\ d\u00E9crire\ les\ sorties\ de\n\ \ cette\ piece.\n\n\ @return\ \ \ \ Description\ affichable\ de\ cette\ piece\n
+comment5.params=
+comment5.target=java.lang.String\ descriptionSorties()
+comment5.text=\n\ \ Renvoie\ une\ description\ des\ sorties\ de\ cette\ piece,\ de\ la\ forme\:\ <pre>\n\ \ Sorties\:\ nord\ ouest</pre>\ Cette\ description\ est\ utilis\u00E9e\ dans\ la\n\ \ description\ longue\ d'une\ piece.\n\n\ @return\ \ \ \ Une\ description\ des\ sorties\ de\ cette\ pi\u00E8ce.\n
+comment6.params=d
+comment6.target=Piece\ pieceSuivante(Direction)
+comment6.text=\n\ \ Renvoie\ la\ piece\ atteinte\ lorsque\ l'on\ se\ d\u00E9place\ a\ partir\ de\ cette\ piece\n\ \ dans\ la\ direction\ sp\u00E9cifi\u00E9e.\ Si\ cette\ piece\ ne\ poss\u00E8de\ aucune\ sortie\ dans\ cette\ direction,\n\ \ renvoie\ null.\n\n\ @param\ \ direction\ \ La\ direction\ dans\ laquelle\ on\ souhaite\ se\ d\u00E9placer\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ Piece\ atteinte\ lorsque\ l'on\ se\ d\u00E9place\ dans\ la\ direction\n\ \ \ \ \ \ sp\u00E9cifi\u00E9e\ ou\ null.\n
+numComments=7
